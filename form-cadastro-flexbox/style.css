@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family: Arial;
+}
+#caixa-formulario {
+    width: 400px;
+    padding: 25px;
+    background-color: white;
+    border: 3px solid black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.textuais {
+    padding: 8px;
+}
+button {
+    padding: 10px;
+    cursor: pointer;
+}

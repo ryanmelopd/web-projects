@@ -1,0 +1,31 @@
+body {
+    font-family: Arial;
+}
+table {
+    border-collapse: collapse;
+    width: 80%;
+}
+th, td {
+    border: 2px solid black;
+    text-align: center;
+    padding: 30px;
+}
+#curso, .horario, .horario-intervalo {
+    width: 160px;
+    white-space: nowrap;
+}
+.intervalo, .informacoes, .horario-intervalo {
+    background-color: #7F8187;
+}
+.atv-digital {
+    color: green;
+}
+caption {
+    border: 2px solid black;
+    text-align: center;
+    padding: 15px;
+    background-color:orange;
+}
+p {
+    font-style: italic;
+}
