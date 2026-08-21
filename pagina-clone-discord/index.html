@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Discord</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="pagina">
+        <section class="login-container">
+            <div class="login">
+                <h1>Boas-vindas de volta!</h1>
+                <p class="subtitulo">Estamos muito animados em te ver novamente!</p>
+                <form>
+                    <label for="email">E-mail ou número de telefone</label>
+                    <input type="text" id="email" name="email" required>
+                    <label for="senha">Senha</label>
+                    <input type="password" id="senha" name="senha" required>
+                    <a href="#" class="link">Esqueceu sua senha?</a>
+                    <button type="submit">Entrar</button>
+                </form>
+                <p class="criar-conta">
+                    Precisando de uma conta?
+                    <a href="#" class="link">Registre-se</a>
+                </p>
+            </div>
+            <div class="qr-login">
+                <img src="imagens/qrcode-discord.png" alt="QR Code do Discord" class="qrcode">
+                <h2>Entrar com código QR</h2>
+                <p>
+                    Escaneie isto com o
+                    <strong>app móvel do Discord</strong>
+                    para fazer login imediatamente
+                </p>
+                <a href="#" class="link">Ou, faça login com uma passkey</a>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
