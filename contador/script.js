@@ -18,7 +18,7 @@ botao_aumentar.addEventListener("click", function() {
 botao_diminuir.addEventListener("click", function() {
     if (numero < -999999) {
         contador.textContent = numero;
-        alert("Número máximo atingido.");
+        alert("Número mínimo atingido.");
     } else {
         numero--;
         contador.textContent = numero;
